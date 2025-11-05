@@ -22,4 +22,8 @@ public class Cliente {
     @Embedded @NoFrame // Con @NoFrame no se muestra marco para direccion
     private Direccion direccion;
 
+    @ManyToOne(fetch=FetchType.LAZY)
+    @DescriptionsList
+    Autor autor;
+
 }

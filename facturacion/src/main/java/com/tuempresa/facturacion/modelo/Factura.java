@@ -18,7 +18,8 @@ import lombok.*;
         "anyo, numero, fecha;" + // Separados por coma significa en la misma línea
                 "cliente;" + // Punto y coma significa nueva línea
                 "detalles;" +
-                "observaciones")
+                "observaciones"
+)
 public class Factura {
 
     @Id
